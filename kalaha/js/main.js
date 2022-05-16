@@ -369,7 +369,6 @@ new WOW().init();
 $('.footer__news--active,.testimonial-active-2').slick({
 	dots: false,
 	infinite: false,
-	dots: false,
 	speed: 1000,
 	slidesToShow: 1,
 	slidesToScroll: 1,
