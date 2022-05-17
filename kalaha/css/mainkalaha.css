@@ -75,8 +75,8 @@ top: 0px !important;
 }
 .goog-te-gadget {
 position: absolute;
-left: 250px;
-top: 15px;
+left: 75%;
+top: 14px;
 z-index: 99;
 }
 .goog-te-gadget img {
