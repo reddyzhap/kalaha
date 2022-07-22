@@ -100,7 +100,20 @@ z-index: 99;
 }
 
 
+/*浮动窗口*/
+.nb-dingwei{display:none;}
+.nb-dingwei .container{z-index:9999;position:fixed;top:90%;left:50%; margin-left:-200px; margin-top:-81px;  width: 400px; height: 162px;}
+.nb-fd-close{position: absolute; right:10px; bottom:96px;transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+.nb-fd-close:hover{cursor: pointer;  transform: rotate(180deg); -webkit-transform: rotate(180deg);-moz-transform: rotate(180deg); -o-transform: rotate(180deg);-ms-transform: rotate(180deg);}
+.nb-fd-content{position:absolute; bottom: 0; right:0; color: #fff; width:222px; height:108px;}
+.nb-fd-content p{color: #fff; font-size: 16px;}
+.anniubox span{border:#fff solid 1px; color: #fff; height: 34px; line-height: 34px; width: 80px; text-align: center; display: inline-block; border-radius: 5px;}
+.anniubox .nb-dk{margin-left: 10px; background-color: #fff; color: #329fd7;}
 /****************************************************
+*/
+
+/*
+
 4. common
 *****************************************************/
 
@@ -608,6 +621,7 @@ label {
   background: #2b96cc;
   color: #fff;
 }
+
 /* scrollUp */
 #scrollUp {
   background: #9e4b47;
@@ -2764,7 +2778,9 @@ button.mobile-nav-close {
 }
 
 .feed__thumb img {
-  width: auto !important;
+  /*width: auto !important;*/
+  height:80px !important;
+  width: 80px !important;
 }
 
 .about__info a i {
@@ -8032,6 +8048,10 @@ a.replay-btn i {
   line-height: 1;
   font-size: 36px;
 }
+.case__text img{
+width: 100%;
+}
+
 @media (max-width: 767px) {
   .case__text h2 {
     font-size: 26px;
